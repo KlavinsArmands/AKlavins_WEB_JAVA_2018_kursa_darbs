@@ -53,7 +53,7 @@ public class HomepageSteps {
     }
 
     @And("^I set ([^\\\"]*) adults$")
-    public void iSetAdults(String adult) {
+    public void iSetAdults(String adult) throws InterruptedException {
         test.getLandingPage().selectPeopleField();
         test.getLandingPage().enterAdultAmount(adult);
     }

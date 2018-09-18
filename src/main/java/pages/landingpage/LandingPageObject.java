@@ -46,7 +46,7 @@ public class LandingPageObject {
     }
 
     private SelenideElement getPeopleField() {
-        return $(By.xpath("//input[@name='totalManualPassenger']"));
+        return $("input[data-target='#manual_flightTravelers']");
     }
 
     private SelenideElement getAdultField() {
@@ -107,7 +107,8 @@ public class LandingPageObject {
         getReturnDate().sendKeys(arrival);
     }
 
-    public void selectPeopleField(){
+    public void selectPeopleField() throws InterruptedException {
+        Thread.sleep(1000);
         getPeopleField().click();
     }
 
