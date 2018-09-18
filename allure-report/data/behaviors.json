@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "This feature is about successful booking of flight",
+    "children" : [ {
+      "name" : "Successful booking",
+      "children" : [ {
+        "name" : "Successful booking",
+        "uid" : "a0f72ba7fb69dbca",
+        "parentUid" : "e8a2cff4f3c246938bbd35e11effea0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537270868389,
+          "stop" : 1537270938187,
+          "duration" : 69798
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8a2cff4f3c246938bbd35e11effea0d"
+    } ],
+    "uid" : "a99f0e605478665a352e2fc10dd31c28"
+  } ]
+}
