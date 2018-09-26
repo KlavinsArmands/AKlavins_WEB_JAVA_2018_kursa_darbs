@@ -13,14 +13,15 @@ public class BookingSteps {
 
     @And("^I book the first flight offer available$")
     public void iBookTheFirstFlightOfferAvailable() {
+        test.getNavigation().waitUntilPageLoadingIsFinished();
         test.getBookingPage().scrollToBookButton();
         test.getBookingPage().selectBookingButton();
     }
 
     @And("^I confirm the booking$")
     public void iConfirmTheBooking() {
-        test.getNavigation().waitUntilPageLoadingIsFinished();
         test.getConfirmationPage().selectConfirmBookingButton();
+        test.getNavigation().waitUntilPageLoadingIsFinished();
     }
 
 }

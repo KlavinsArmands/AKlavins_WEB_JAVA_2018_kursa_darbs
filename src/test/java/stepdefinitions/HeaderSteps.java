@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import general.TestContext;
 
+
 public class HeaderSteps {
 
     private TestContext test;
@@ -14,7 +15,7 @@ public class HeaderSteps {
     }
 
     @Given("^I have an existing account$")
-    public void iHaveAnExistingAccount() throws InterruptedException {
+    public void iHaveAnExistingAccount() {
         test.getNavigation().selectMyAccountButton();
         test.getNavigation().selectSignUpButton();
         test.getSignUpPage().enterFirstName(test.getUser().getFirstName());
@@ -30,7 +31,7 @@ public class HeaderSteps {
     }
 
     @When("^I login this account$")
-    public void iLoginThisAccount() throws InterruptedException {
+    public void iLoginThisAccount() {
         test.getNavigation().selectHomeButton();
         test.getNavigation().selectMyAccountButton();
         test.getNavigation().selectLoginButton();
@@ -40,9 +41,9 @@ public class HeaderSteps {
     }
 
     @And("^I navigate to Home page$")
-    public void iNavigateToHomePage() throws InterruptedException {
-        test.getNavigation().selectHomeButton();
+    public void iNavigateToHomePage() {
         test.getNavigation().waitUntilPageLoadingIsFinished();
+        test.getNavigation().selectHomeButton();
     }
 
     @And("^I navigate to Accounts page$")

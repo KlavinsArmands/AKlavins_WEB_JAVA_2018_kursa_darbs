@@ -8,11 +8,11 @@ import static com.codeborne.selenide.Selenide.$;
 public class InvoicePageObject {
 
     private SelenideElement getFromAirport() {
-        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[3]/td/table/tbody/tr[2]/td/table[1]/tbody/tr[2]/td[3]"));
+        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[2]/td[3]"));
     }
 
     private SelenideElement getToAirport() {
-        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[3]/td/table/tbody/tr[2]/td/table[1]/tbody/tr[3]/td[3]"));
+        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[3]/td[3]"));
     }
 
 

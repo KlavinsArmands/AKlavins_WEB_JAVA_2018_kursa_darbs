@@ -21,3 +21,6 @@ And I navigate to Home page
 And I navigate to Accounts page
 And I open invoice for the newest booking
 Then new booking contains correct flight details
+
+
+
