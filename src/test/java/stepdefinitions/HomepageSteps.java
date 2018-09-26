@@ -14,7 +14,6 @@ public class HomepageSteps {
 
     @And("^I select FLIGHTS menu in booking section$")
     public void iSelectFLIGHTSMenuInBookingSection() {
-        test.getNavigation().waitUntilPageLoadingIsFinished();
         test.getLandingPage().selectFlightButton();
     }
 
@@ -53,7 +52,7 @@ public class HomepageSteps {
     }
 
     @And("^I set ([^\\\"]*) adults$")
-    public void iSetAdults(String adult) throws InterruptedException {
+    public void iSetAdults(String adult) {
         test.getLandingPage().selectPeopleField();
         test.getLandingPage().enterAdultAmount(adult);
     }

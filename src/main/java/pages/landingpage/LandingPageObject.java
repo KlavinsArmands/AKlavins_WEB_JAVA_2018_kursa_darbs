@@ -1,5 +1,6 @@
 package pages.landingpage;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
@@ -46,7 +47,7 @@ public class LandingPageObject {
     }
 
     private SelenideElement getPeopleField() {
-        return $("input[data-target='#manual_flightTravelers']");
+        return $(By.xpath("//input[@name='totalManualPassenger']"));
     }
 
     private SelenideElement getAdultField() {
@@ -66,7 +67,7 @@ public class LandingPageObject {
     }
 
     private SelenideElement getSearchButton() {
-        return $("#flights > form > div.bgfade.col-md-1.col-xs-12.search-button > button");
+        return $("#flights .search-button button");
     }
 
 
@@ -107,8 +108,7 @@ public class LandingPageObject {
         getReturnDate().sendKeys(arrival);
     }
 
-    public void selectPeopleField() throws InterruptedException {
-        Thread.sleep(1000);
+    public void selectPeopleField() {
         getPeopleField().click();
     }
 

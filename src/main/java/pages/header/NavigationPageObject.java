@@ -34,7 +34,7 @@ public class NavigationPageObject {
     }
 
     private SelenideElement getHomeButton() {
-        return $(By.xpath("//*[@id='collapse']/ul[1]/li[1]/a"));
+        return $(By.xpath("//nav/descendant::a[contains(text(), 'Home')]"));
     }
 
     private SelenideElement getLoadingIndicator() {
@@ -72,13 +72,13 @@ public class NavigationPageObject {
         return page(AccountPageObject.class);
     }
 
-    public AccountPageObject selectHomeButton() throws InterruptedException {
-        Thread.sleep(1000);
+    public AccountPageObject selectHomeButton() {
         getHomeButton().click();
         return page(AccountPageObject.class);
     }
 
     public void waitUntilPageLoadingIsFinished() {
+        getLoadingIndicator().waitUntil(Condition.visible, 10000);
         getLoadingIndicator().waitUntil(Condition.attribute("style", "display: none;"),5000);
     }
 
