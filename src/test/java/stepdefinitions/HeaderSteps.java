@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import general.TestContext;
 
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HeaderSteps {
 
@@ -52,4 +53,10 @@ public class HeaderSteps {
         test.getNavigation().selectAccountButton();
     }
 
+    @Given("^I am in Home page$")
+    public void iAmInHomePage() {
+        test.getNavigation().waitUntilPageLoadingIsFinished();
+        assertThat(test.getNavigation().isLogoVisible()).isTrue();
+        assertThat(test.getNavigation().isMyAccountButtonVisible()).isTrue();
+    }
 }

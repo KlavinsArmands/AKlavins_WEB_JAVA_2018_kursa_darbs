@@ -13,6 +13,7 @@ public class User {
     private String mobileNumber;
     private String emailAddress;
     private String password;
+    private String address;
 
 
     public User() {
@@ -21,6 +22,7 @@ public class User {
         this.mobileNumber  = generateRandomPhoneNumber();
         this.emailAddress = generateRandomEmail();
         this.password = generateRandomString();
+        this.address =generateRandomAddress();
     }
 
 }

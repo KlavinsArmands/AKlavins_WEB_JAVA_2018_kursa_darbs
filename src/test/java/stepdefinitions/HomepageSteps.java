@@ -19,11 +19,10 @@ public class HomepageSteps {
 
     @And("^I select ROUND TRIP flight option$")
     public void iSelectROUNDTRIPFlightOption() {
-        test.getNavigation().waitUntilPageLoadingIsFinished();
         test.getLandingPage().selectRoundTripButton();
     }
 
-    @And("^I set FIRST class tickets$")
+    @And("^I set BUSINESS class tickets$")
     public void iSetFIRSTClassTickets() {
         test.getLandingPage().selectClassButton();
         test.getLandingPage().selectClassOption();
@@ -71,6 +70,7 @@ public class HomepageSteps {
     @And("^I search for a flight$")
     public void iSearchForAFlight() {
         test.getLandingPage().selectSearchButton();
+        test.getNavigation().waitUntilPageLoadingIsFinished();
     }
 
 }

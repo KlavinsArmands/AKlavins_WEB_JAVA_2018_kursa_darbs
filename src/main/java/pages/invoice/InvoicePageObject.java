@@ -7,21 +7,46 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class InvoicePageObject {
 
-    private SelenideElement getFromAirport() {
-        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[2]/td[3]"));
+    private SelenideElement getName(String firstName, String lastName) {
+        return $(By.xpath("//div[contains(text(), '"+firstName+" "+lastName+"')]"));
     }
 
-    private SelenideElement getToAirport() {
-        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[3]/td[3]"));
+    private SelenideElement getAddress(String address) {
+        return $(By.xpath("//div[contains(text(), '"+address+"')]"));
+    }
+
+    private SelenideElement getPhoneNumber(String number) {
+        return $(By.xpath("//div[contains(text(), '"+number+"')]"));
+    }
+
+    private SelenideElement getFromAirport(String departure) {
+        return $(By.xpath("//table//td[contains(text(), '"+departure+"')]"));
+    }
+
+    private SelenideElement getToAirport(String arrival) {
+        return $(By.xpath("//table//td[contains(text(), '"+arrival+"')]"));
     }
 
 
-    public String getFromAirportText() {
-        return getFromAirport().getText();
+
+    public boolean isNameVisible(String firstName, String lastName) {
+        return getName(firstName, lastName).isDisplayed();
     }
 
-    public String getToAirportText() {
-        return getToAirport().getText();
+    public boolean isAddressVisible(String address) {
+        return getAddress(address).isDisplayed();
+    }
+
+    public boolean isPhoneNumberVisible(String number) {
+        return getPhoneNumber(number).isDisplayed();
+    }
+
+    public boolean isFromAirportVisible(String departure) {
+        return getFromAirport(departure).isDisplayed();
+    }
+
+    public boolean isToAirportVisible(String arrival) {
+        return getToAirport(arrival).isDisplayed();
     }
 
 }

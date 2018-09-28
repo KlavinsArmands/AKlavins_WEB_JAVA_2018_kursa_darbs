@@ -1,6 +1,5 @@
 package pages.landingpage;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
@@ -70,7 +69,6 @@ public class LandingPageObject {
         return $("#flights .search-button button");
     }
 
-
     public LandingPageObject selectFlightButton(){
         getFlightButton().click();
         return page(LandingPageObject.class);
@@ -132,9 +130,5 @@ public class LandingPageObject {
         getSearchButton().click();
         return page(LandingPageObject.class);
     }
-
-
-
-
 
 }

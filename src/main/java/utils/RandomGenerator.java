@@ -20,4 +20,10 @@ public class RandomGenerator {
                 RandomStringUtils.random(7, true, false) + ".com";
     }
 
+    public static String generateRandomAddress() {
+        return RandomStringUtils.random(6, true, false) + ", " +
+                RandomStringUtils.random(5,true,false) + ", LV-" +
+                RandomStringUtils.random(4, false, true);
+    }
+
 }
