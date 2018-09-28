@@ -4,14 +4,14 @@
   "children" : [ {
     "name" : "This feature is about successful booking of flight",
     "children" : [ {
-      "name" : "Successful booking",
-      "uid" : "a0f72ba7fb69dbca",
+      "name" : "Successful booking without signing up",
+      "uid" : "840a80a89492b4ef",
       "parentUid" : "63ec35b79e46e6a01d73d7ee0e2cc54c",
       "status" : "passed",
       "time" : {
-        "start" : 1537270868389,
-        "stop" : 1537270938187,
-        "duration" : 69798
+        "start" : 1538128960450,
+        "stop" : 1538128996401,
+        "duration" : 35951
       },
       "flaky" : false,
       "parameters" : [ ]

@@ -1,11 +1,11 @@
 {
-  "uid" : "a0f72ba7fb69dbca",
-  "name" : "Successful booking",
-  "historyId" : "af7a06436d21398b634f65c57be4de7",
+  "uid" : "840a80a89492b4ef",
+  "name" : "Successful booking without signing up",
+  "historyId" : "d929ccf1549f51130c315f18f413dff5",
   "time" : {
-    "start" : 1537270868389,
-    "stop" : 1537270938187,
-    "duration" : 69798
+    "start" : 1538128960450,
+    "stop" : 1538128996401,
+    "duration" : 35951
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,9 +15,9 @@
     "steps" : [ {
       "name" : "before",
       "time" : {
-        "start" : 1537270868395,
-        "stop" : 1537270868403,
-        "duration" : 8
+        "start" : 1538128960450,
+        "stop" : 1538128960465,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,9 +30,9 @@
     }, {
       "name" : "before",
       "time" : {
-        "start" : 1537270868404,
-        "stop" : 1537270880658,
-        "duration" : 12254
+        "start" : 1538128960465,
+        "stop" : 1538128975407,
+        "duration" : 14942
       },
       "status" : "passed",
       "steps" : [ ],
@@ -43,11 +43,11 @@
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "Given  I have an existing account",
+      "name" : "Given  I am in Home page",
       "time" : {
-        "start" : 1537270880659,
-        "stop" : 1537270887281,
-        "duration" : 6622
+        "start" : 1538128975407,
+        "stop" : 1538128976796,
+        "duration" : 1389
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,41 +58,11 @@
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "When  I login this account",
+      "name" : "When  I select FLIGHTS menu in booking section",
       "time" : {
-        "start" : 1537270887281,
-        "stop" : 1537270891575,
-        "duration" : 4294
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "And  I navigate to Home page",
-      "time" : {
-        "start" : 1537270891576,
-        "stop" : 1537270895107,
-        "duration" : 3531
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "And  I select FLIGHTS menu in booking section",
-      "time" : {
-        "start" : 1537270895107,
-        "stop" : 1537270895268,
-        "duration" : 161
+        "start" : 1538128976796,
+        "stop" : 1538128976945,
+        "duration" : 149
       },
       "status" : "passed",
       "steps" : [ ],
@@ -105,9 +75,9 @@
     }, {
       "name" : "And  I select ROUND TRIP flight option",
       "time" : {
-        "start" : 1537270895269,
-        "stop" : 1537270895673,
-        "duration" : 404
+        "start" : 1538128976945,
+        "stop" : 1538128977452,
+        "duration" : 507
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,11 +88,11 @@
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "And  I set FIRST class tickets",
+      "name" : "And  I set BUSINESS class tickets",
       "time" : {
-        "start" : 1537270895673,
-        "stop" : 1537270895960,
-        "duration" : 287
+        "start" : 1538128977453,
+        "stop" : 1538128977780,
+        "duration" : 327
       },
       "status" : "passed",
       "steps" : [ ],
@@ -135,9 +105,9 @@
     }, {
       "name" : "And  I set Riga Arpt as departure airport",
       "time" : {
-        "start" : 1537270895960,
-        "stop" : 1537270897026,
-        "duration" : 1066
+        "start" : 1538128977780,
+        "stop" : 1538128978799,
+        "duration" : 1019
       },
       "status" : "passed",
       "steps" : [ ],
@@ -150,9 +120,9 @@
     }, {
       "name" : "And  I set Barcelona Arpt as arrival airport",
       "time" : {
-        "start" : 1537270897026,
-        "stop" : 1537270898058,
-        "duration" : 1032
+        "start" : 1538128978799,
+        "stop" : 1538128980009,
+        "duration" : 1210
       },
       "status" : "passed",
       "steps" : [ ],
@@ -165,9 +135,9 @@
     }, {
       "name" : "And  I set 2019-02-07 as departure date",
       "time" : {
-        "start" : 1537270898058,
-        "stop" : 1537270898238,
-        "duration" : 180
+        "start" : 1538128980009,
+        "stop" : 1538128980230,
+        "duration" : 221
       },
       "status" : "passed",
       "steps" : [ ],
@@ -180,9 +150,9 @@
     }, {
       "name" : "And  I set 2019-02-13 as return date",
       "time" : {
-        "start" : 1537270898238,
-        "stop" : 1537270898420,
-        "duration" : 182
+        "start" : 1538128980230,
+        "stop" : 1538128980452,
+        "duration" : 222
       },
       "status" : "passed",
       "steps" : [ ],
@@ -195,9 +165,9 @@
     }, {
       "name" : "And  I set 2 adults",
       "time" : {
-        "start" : 1537270898421,
-        "stop" : 1537270898791,
-        "duration" : 370
+        "start" : 1538128980452,
+        "stop" : 1538128980951,
+        "duration" : 499
       },
       "status" : "passed",
       "steps" : [ ],
@@ -210,9 +180,9 @@
     }, {
       "name" : "And  I set 2 children",
       "time" : {
-        "start" : 1537270898792,
-        "stop" : 1537270898927,
-        "duration" : 135
+        "start" : 1538128980952,
+        "stop" : 1538128981232,
+        "duration" : 280
       },
       "status" : "passed",
       "steps" : [ ],
@@ -225,9 +195,9 @@
     }, {
       "name" : "And  I set 1 infant",
       "time" : {
-        "start" : 1537270898927,
-        "stop" : 1537270899222,
-        "duration" : 295
+        "start" : 1538128981233,
+        "stop" : 1538128981535,
+        "duration" : 302
       },
       "status" : "passed",
       "steps" : [ ],
@@ -240,9 +210,9 @@
     }, {
       "name" : "And  I search for a flight",
       "time" : {
-        "start" : 1537270899223,
-        "stop" : 1537270928575,
-        "duration" : 29352
+        "start" : 1538128981535,
+        "stop" : 1538128986523,
+        "duration" : 4988
       },
       "status" : "passed",
       "steps" : [ ],
@@ -255,9 +225,114 @@
     }, {
       "name" : "And  I book the first flight offer available",
       "time" : {
-        "start" : 1537270928575,
-        "stop" : 1537270929319,
-        "duration" : 744
+        "start" : 1538128986523,
+        "stop" : 1538128988111,
+        "duration" : 1588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I enter first name",
+      "time" : {
+        "start" : 1538128988111,
+        "stop" : 1538128988228,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I enter last name",
+      "time" : {
+        "start" : 1538128988228,
+        "stop" : 1538128988340,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I enter email address",
+      "time" : {
+        "start" : 1538128988341,
+        "stop" : 1538128988568,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I confirm email address",
+      "time" : {
+        "start" : 1538128988568,
+        "stop" : 1538128988818,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I enter mobile phone number",
+      "time" : {
+        "start" : 1538128988818,
+        "stop" : 1538128988935,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I enter Address",
+      "time" : {
+        "start" : 1538128988935,
+        "stop" : 1538128989131,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I set country to Latvia",
+      "time" : {
+        "start" : 1538128989131,
+        "stop" : 1538128989446,
+        "duration" : 315
       },
       "status" : "passed",
       "steps" : [ ],
@@ -270,9 +345,9 @@
     }, {
       "name" : "And  I confirm the booking",
       "time" : {
-        "start" : 1537270929319,
-        "stop" : 1537270930514,
-        "duration" : 1195
+        "start" : 1538128989447,
+        "stop" : 1538128995362,
+        "duration" : 5915
       },
       "status" : "passed",
       "steps" : [ ],
@@ -283,56 +358,11 @@
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0
     }, {
-      "name" : "And  I navigate to Home page",
+      "name" : "Then  invoice details contain correct data",
       "time" : {
-        "start" : 1537270930514,
-        "stop" : 1537270934513,
-        "duration" : 3999
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "And  I navigate to Accounts page",
-      "time" : {
-        "start" : 1537270934514,
-        "stop" : 1537270935483,
-        "duration" : 969
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "And  I open invoice for the newest booking",
-      "time" : {
-        "start" : 1537270935483,
-        "stop" : 1537270936886,
-        "duration" : 1403
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "Then  new booking contains correct flight details",
-      "time" : {
-        "start" : 1537270936887,
-        "stop" : 1537270937277,
-        "duration" : 390
+        "start" : 1538128995362,
+        "stop" : 1538128995518,
+        "duration" : 156
       },
       "status" : "passed",
       "steps" : [ ],
@@ -345,9 +375,9 @@
     }, {
       "name" : "after",
       "time" : {
-        "start" : 1537270937277,
-        "stop" : 1537270938185,
-        "duration" : 908
+        "start" : 1538128995518,
+        "stop" : 1538128996401,
+        "duration" : 883
       },
       "status" : "passed",
       "steps" : [ ],
@@ -360,7 +390,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 23,
+    "stepsCount" : 25,
     "hasContent" : true,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
@@ -371,7 +401,10 @@
     "value" : "This feature is about successful booking of flight"
   }, {
     "name" : "story",
-    "value" : "Successful booking"
+    "value" : "Successful booking without signing up"
+  }, {
+    "name" : "tag",
+    "value" : "SecondTest"
   }, {
     "name" : "host",
     "value" : "DESKTOP-Q1TBU05"
@@ -383,10 +416,10 @@
     "value" : "This feature is about successful booking of flight"
   }, {
     "name" : "testClass",
-    "value" : "Successful booking"
+    "value" : "Successful booking without signing up"
   }, {
     "name" : "thread",
-    "value" : "11992@DESKTOP-Q1TBU05.main(1)"
+    "value" : "14652@DESKTOP-Q1TBU05.main(1)"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -399,8 +432,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "SecondTest" ]
   },
-  "source" : "a0f72ba7fb69dbca.json",
+  "source" : "840a80a89492b4ef.json",
   "parameterValues" : [ ]
 }

@@ -1,10 +1,10 @@
 [ {
-  "uid" : "a0f72ba7fb69dbca",
-  "name" : "Successful booking",
+  "uid" : "840a80a89492b4ef",
+  "name" : "Successful booking without signing up",
   "time" : {
-    "start" : 1537270868389,
-    "stop" : 1537270938187,
-    "duration" : 69798
+    "start" : 1538128960450,
+    "stop" : 1538128996401,
+    "duration" : 35951
   },
   "status" : "passed",
   "severity" : "normal"

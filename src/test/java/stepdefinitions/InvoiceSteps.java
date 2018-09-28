@@ -17,10 +17,9 @@ public class InvoiceSteps {
     public void newBookingContainsCorrectFlightDetails() {
         assertThat(test.getInvoice().isNameVisible(
                 test.getUser().getFirstName(), test.getUser().getLastName())).isTrue();
-        assertThat(test.getInvoice().isAddressVisible(test.getUser().getAddress())).isTrue();
         assertThat(test.getInvoice().isPhoneNumberVisible(test.getUser().getMobileNumber())).isTrue();
-        assertThat(test.getInvoice().isFromAirportVisible(test.getBooking().getDeparture())).isTrue();
-        assertThat(test.getInvoice().isToAirportVisible(test.getBooking().getArrival())).isTrue();
+        assertThat(test.getInvoice().isFromAirportVisible()).isTrue();
+        assertThat(test.getInvoice().isToAirportVisible()).isTrue();
     }
 
     @Then("^invoice details contain correct data$")
@@ -29,8 +28,7 @@ public class InvoiceSteps {
                 test.getUser().getFirstName(), test.getUser().getLastName())).isTrue();
         assertThat(test.getInvoice().isAddressVisible(test.getUser().getAddress())).isTrue();
         assertThat(test.getInvoice().isPhoneNumberVisible(test.getUser().getMobileNumber())).isTrue();
-        assertThat(test.getInvoice().isFromAirportVisible(test.getBooking().getDeparture())).isTrue();
-        assertThat(test.getInvoice().isToAirportVisible(test.getBooking().getArrival())).isTrue();
-
+        assertThat(test.getInvoice().isFromAirportVisible()).isTrue();
+        assertThat(test.getInvoice().isToAirportVisible()).isTrue();
     }
 }
