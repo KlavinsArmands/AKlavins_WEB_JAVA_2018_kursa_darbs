@@ -1,5 +1,5 @@
 {
-  "af7a06436d21398b634f65c57be4de7" : {
+  "d929ccf1549f51130c315f18f413dff5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a0f72ba7fb69dbca",
+      "uid" : "840a80a89492b4ef",
       "status" : "passed",
       "time" : {
-        "start" : 1537270868389,
-        "stop" : 1537270938187,
-        "duration" : 69798
+        "start" : 1538128960450,
+        "stop" : 1538128996401,
+        "duration" : 35951
       }
     } ]
   }

@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "DESKTOP-Q1TBU05",
     "children" : [ {
-      "name" : "11992@DESKTOP-Q1TBU05.main(1)",
+      "name" : "14652@DESKTOP-Q1TBU05.main(1)",
       "children" : [ {
-        "name" : "Successful booking",
-        "uid" : "a0f72ba7fb69dbca",
-        "parentUid" : "669fa0c41abd0ff757e6216a26b2d39d",
+        "name" : "Successful booking without signing up",
+        "uid" : "840a80a89492b4ef",
+        "parentUid" : "fe32e7e1080c5722e8b0f4b9630cad57",
         "status" : "passed",
         "time" : {
-          "start" : 1537270868389,
-          "stop" : 1537270938187,
-          "duration" : 69798
+          "start" : 1538128960450,
+          "stop" : 1538128996401,
+          "duration" : 35951
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "669fa0c41abd0ff757e6216a26b2d39d"
+      "uid" : "fe32e7e1080c5722e8b0f4b9630cad57"
     } ],
     "uid" : "285793a56ee4a68f45754a48e901e913"
   } ]

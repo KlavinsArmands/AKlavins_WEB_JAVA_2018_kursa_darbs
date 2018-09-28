@@ -19,14 +19,13 @@ public class InvoicePageObject {
         return $(By.xpath("//div[contains(text(), '"+number+"')]"));
     }
 
-    private SelenideElement getFromAirport(String departure) {
-        return $(By.xpath("//table//td[contains(text(), '"+departure+"')]"));
+    private SelenideElement getFromAirport() {
+        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[2]/td[3]"));
     }
 
-    private SelenideElement getToAirport(String arrival) {
-        return $(By.xpath("//table//td[contains(text(), '"+arrival+"')]"));
+    private SelenideElement getToAirport() {
+        return $(By.xpath("//*[@id='invoiceTable']/tbody/tr[4]/td/table[1]/tbody/tr[2]/td/table[2]/tbody/tr[3]/td[3]"));
     }
-
 
 
     public boolean isNameVisible(String firstName, String lastName) {
@@ -41,12 +40,12 @@ public class InvoicePageObject {
         return getPhoneNumber(number).isDisplayed();
     }
 
-    public boolean isFromAirportVisible(String departure) {
-        return getFromAirport(departure).isDisplayed();
+    public boolean isFromAirportVisible() {
+        return getFromAirport().isDisplayed();
     }
 
-    public boolean isToAirportVisible(String arrival) {
-        return getToAirport(arrival).isDisplayed();
+    public boolean isToAirportVisible() {
+        return getToAirport().isDisplayed();
     }
 
 }

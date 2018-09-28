@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "This feature is about successful booking of flight",
     "children" : [ {
-      "name" : "Successful booking",
+      "name" : "Successful booking without signing up",
       "children" : [ {
-        "name" : "Successful booking",
-        "uid" : "a0f72ba7fb69dbca",
-        "parentUid" : "e8a2cff4f3c246938bbd35e11effea0d",
+        "name" : "Successful booking without signing up",
+        "uid" : "840a80a89492b4ef",
+        "parentUid" : "ca0511e2548cfeab0183221ce5314a4d",
         "status" : "passed",
         "time" : {
-          "start" : 1537270868389,
-          "stop" : 1537270938187,
-          "duration" : 69798
+          "start" : 1538128960450,
+          "stop" : 1538128996401,
+          "duration" : 35951
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e8a2cff4f3c246938bbd35e11effea0d"
+      "uid" : "ca0511e2548cfeab0183221ce5314a4d"
     } ],
     "uid" : "a99f0e605478665a352e2fc10dd31c28"
   } ]
