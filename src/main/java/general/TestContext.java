@@ -15,6 +15,7 @@ import pages.signup.SignUpPageObject;
 public class TestContext {
 
     private User user;
+    private Booking booking;
     private AccountPageObject accountPage;
     private BookingPageObject bookingPage;
     private ReservationConfirmationPageObject confirmationPage;
@@ -26,6 +27,7 @@ public class TestContext {
 
     public TestContext() {
         this.user = new User();
+        this.booking = new Booking();
         this.accountPage = new AccountPageObject();
         this.bookingPage = new BookingPageObject();
         this.confirmationPage = new ReservationConfirmationPageObject();

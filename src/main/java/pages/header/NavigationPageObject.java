@@ -45,7 +45,9 @@ public class NavigationPageObject {
         return $(By.xpath("//nav/descendant::a[contains(text(), 'Account')]"));
     }
 
-
+    private SelenideElement getLogoImageLocation() {
+        return $(".navbar-brand img");
+    }
 
 
     public void selectMyAccountButton(){
@@ -78,13 +80,21 @@ public class NavigationPageObject {
     }
 
     public void waitUntilPageLoadingIsFinished() {
-        getLoadingIndicator().waitUntil(Condition.visible, 10000);
+        getLoadingIndicator().waitUntil(Condition.visible, 15000);
         getLoadingIndicator().waitUntil(Condition.attribute("style", "display: none;"),5000);
     }
 
     public AccountPageObject selectAccountButton() {
         getAccountButton().click();
         return page(AccountPageObject.class);
+    }
+
+    public boolean isLogoVisible() {
+        return getLogoImageLocation().isDisplayed();
+    }
+
+    public boolean isMyAccountButtonVisible () {
+        return getMyAccountButton().isDisplayed();
     }
 
 
